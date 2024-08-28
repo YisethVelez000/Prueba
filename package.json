@@ -14,7 +14,8 @@
     "format": "prettier --write .",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "deploy": "gh-pages -d dist"
   },
   "lint-staged": {
     "./src/**/*.{ts,js,vue}": [
@@ -82,5 +83,6 @@
     "vite": "^4.4.6",
     "vue-eslint-parser": "^9.3.2",
     "vue-tsc": "^1.8.22"
-  }
+  },
+  "homepage": "https://github.com/YisethVelez000/Prueba.git"
 }

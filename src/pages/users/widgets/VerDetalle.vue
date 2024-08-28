@@ -27,10 +27,8 @@ const close = () => {
   router.push('/users')
 }
 
-const { init: notify } = useToast()
 const router = useRouter()
 const route = useRoute()
-const showSuccessAlert = ref(false)
 
 onMounted(async () => {
   const Id = route.query.id
