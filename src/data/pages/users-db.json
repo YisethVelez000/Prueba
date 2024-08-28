@@ -1,0 +1,35 @@
+[
+  {
+    "IdUsuario": 1,
+    "Nombre": "John Doe",
+    "Apellidos": "Smith",
+    "CorreoElectronico": "john.doe@example.com",
+    "TipoDocumento": "ID",
+    "NumeroDocumento": "123456789",
+    "Contrasena": "password123",
+    "IdRol": 1,
+    "EstadoUsuario": "Activo"
+  },
+  {
+    "IdUsuario": 2,
+    "Nombre": "Jane Doe",
+    "Apellidos": "Smith",
+    "CorreoElectronico": "jane.doe@example.com",
+    "TipoDocumento": "ID",
+    "NumeroDocumento": "987654321",
+    "Contrasena": "password456",
+    "IdRol": 2,
+    "EstadoUsuario": "Inactivo"
+  },
+  {
+    "IdUsuario": 3,
+    "Nombre": "Peter Jones",
+    "Apellidos": "Williams",
+    "CorreoElectronico": "peter.jones@example.com",
+    "TipoDocumento": "Passport",
+    "NumeroDocumento": "ABC123456",
+    "Contrasena": "password789",
+    "IdRol": 3,
+    "EstadoUsuario": "Suspendido"
+  }
+]
